@@ -1,0 +1,11 @@
+{
+  "name": "@esy-cross/ninja-build",
+  "version": "1.8.2",
+  "description": "ninja-build binaries packaged for NPM",
+  "license": "MIT",
+  "esy": {
+    "build": [["make", "install"]],
+    "install": []
+  },
+  "dependencies": {}
+}
