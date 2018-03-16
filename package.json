@@ -2,10 +2,14 @@
   "name": "@esy-cross/ninja-build",
   "version": "1.8.2",
   "description": "ninja-build binaries packaged for NPM",
+  "author": "Rauan Mayemir",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esy-cross/ninja-build.git"
+  },
   "esy": {
     "build": [["make", "install"]],
     "install": []
-  },
-  "dependencies": {}
+  }
 }

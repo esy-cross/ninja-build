@@ -14,4 +14,4 @@ ifeq ($(UNAME),CYGWIN_NT-10.0)
 endif
 
 install:
-	cp -r vendor/ninja.$(PLATFORM) $(cur__bin)/ninja
+	cp -r vendor/ninja.$(PLATFORM) $(cur__bin)/ninja.exe
